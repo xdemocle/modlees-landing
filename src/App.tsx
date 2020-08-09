@@ -1,24 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="App-header--title">Modlees</h1>
+        <h3 className="App-header--subtitle">Tokenizing Influencers</h3>
+      </header>
+
+      <section className="App-body">
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <strong>Modlees</strong> is a marketplace where influencers can sell
+          digital content.
         </p>
+        <p>
+          Build on blockchain technology, the financial revolution to tokenize
+          digital assets is coming to the world of influencers.
+        </p>
+        {/* <p>Join our VIP list and get first access to Modlees</p> */}
+      </section>
+
+      <section className="App-footer">
+        Contact:{" "}
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="mailto:info@modless.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          info@modless.com
         </a>
-      </header>
+      </section>
     </div>
   );
 }

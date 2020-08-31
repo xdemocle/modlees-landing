@@ -11,8 +11,7 @@ function App() {
 
       <section className="App-body">
         <p>
-          <strong>Modlees</strong> is a marketplace where influencers can sell
-          digital content.
+          Modlees is a marketplace where influencers can sell digital content.
         </p>
         <p>
           Build on blockchain technology, the financial revolution to tokenize

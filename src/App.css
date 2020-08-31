@@ -70,7 +70,7 @@
 
 .css-input {
   margin-top: 1rem;
-  padding: 0.625rem;
+  padding: 0.625rem 1.2rem;
   font-size: 1rem;
   border-width: 0.125rem 0 0.125rem 0.125rem;
   background-color: #ffffff;
@@ -78,7 +78,7 @@
   border-style: solid;
   border-color: #e2e2e2;
   border-radius: 2rem 0 0 2rem;
-  min-width: 15rem;
+  min-width: 13rem;
   line-height: 2rem;
 }
 .css-input:focus {

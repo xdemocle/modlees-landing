@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,6 +51,14 @@
   color: white;
 }
 
+.App-footer__down {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 1rem;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -58,3 +67,32 @@
     transform: rotate(360deg);
   }
 } */
+
+.css-input {
+  margin-top: 1rem;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border-width: 0.125rem 0 0.125rem 0.125rem;
+  background-color: #ffffff;
+  color: #423d3d;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-radius: 2rem 0 0 2rem;
+  min-width: 15rem;
+  line-height: 2rem;
+}
+.css-input:focus {
+  outline: none;
+}
+
+.css-button {
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-radius: 0 2rem 2rem 0;
+  border-width: 0.125rem 0.125rem 0.125rem 0;
+  padding: 0.625rem 1.2rem 0.625rem 1.1rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: #222;
+  font-weight: 500;
+}

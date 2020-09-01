@@ -3,7 +3,7 @@ import "./Newsletter.css";
 
 function App() {
   return (
-    <div className="Newletter">
+    <div className="Newsletter">
       <div id="mc_embed_signup">
         <form
           action="https://modlees.us17.list-manage.com/subscribe/post?u=fc0f52843438cf9eda32d7595&amp;id=d98f8ced7b"
@@ -70,7 +70,7 @@ function App() {
                       value="Y"
                       className="av-checkbox gdpr"
                     />
-                    <span>Newletter</span>
+                    <span>Newsletter</span>
                   </label>
                 </fieldset>
                 <p>

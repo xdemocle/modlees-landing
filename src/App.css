@@ -1,21 +1,10 @@
 .App {
   text-align: center;
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-family: "Alegreya", serif;
-  font-size: calc(10px + 2vmin);
+  font-size: 16px;
   color: white;
-  padding: 0 1.5rem;
-}
-
-@media (min-width: 85rem) {
-  .App {
-    margin: 0 20%;
-  }
+  padding: 0 0.5rem;
 }
 
 /* .App-logo {
@@ -36,12 +25,21 @@
   font-size: 4.3165rem;
   font-weight: 700;
   margin: 0;
+  margin-top: 1rem;
 }
 
 .App-header--subtitle {
-  font-size: 2.3243rem;
+  font-size: 1.5rem;
   color: #ffe66d;
   margin: 0;
+}
+
+.App-body {
+  line-height: 1.8rem;
+}
+
+.App-body p {
+  margin: 1rem 0.5rem;
 }
 
 /* .App-footer {
@@ -50,14 +48,14 @@
 .App-link {
   color: white;
 }
-
+/* 
 .App-footer__down {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding-bottom: 1rem;
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
@@ -68,31 +66,89 @@
   }
 } */
 
+.App-footer__email {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+/* 
+.App-footer__newsletter {
+  
+} */
+
 .css-input {
-  margin-top: 1rem;
-  padding: 0.625rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   font-size: 1rem;
-  border-width: 0.125rem 0 0.125rem 0.125rem;
   background-color: #ffffff;
   color: #423d3d;
   border-style: solid;
   border-color: #e2e2e2;
-  border-radius: 2rem 0 0 2rem;
-  min-width: 13rem;
   line-height: 2rem;
-}
-.css-input:focus {
-  outline: none;
+  border-radius: 2rem;
+  border-width: 0.125rem;
+
+  display: block;
+  margin: 1rem auto;
+
+  min-width: 15rem;
+  text-align: left;
 }
 
 .css-button {
   border-style: solid;
   border-color: #e2e2e2;
-  border-radius: 0 2rem 2rem 0;
-  border-width: 0.125rem 0.125rem 0.125rem 0;
-  padding: 0.625rem 1.2rem 0.625rem 1.1rem;
   line-height: 2rem;
   font-size: 1rem;
   color: #222;
   font-weight: 500;
+  border-radius: 2rem;
+  border-width: 0.125rem;
+  padding: 0.4rem 1.625rem;
+}
+
+@media (min-width: 65rem) {
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+  }
+
+  .App-header--title {
+    margin-top: 0;
+  }
+
+  .App-header--subtitle {
+    font-size: 2.3243rem;
+  }
+
+  .App-body {
+    line-height: 2.5rem;
+    font-size: 1.75rem;
+  }
+
+  .App-body p {
+    margin: 1rem;
+  }
+  .App-footer__email {
+    font-size: 1.5rem;
+  }
+
+  .App-footer__newsletter {
+    font-size: 1.5rem;
+  }
+  .css-input {
+    display: inline-block;
+    border-radius: 2rem 0 0 2rem;
+    min-width: 13rem;
+    border-width: 0.125rem 0 0.125rem 0.125rem;
+  }
+
+  .css-button {
+    display: inline-block;
+    border-radius: 0 2rem 2rem 0;
+    border-width: 0.125rem 0.125rem 0.125rem 0;
+    padding: 0.5rem 1.2rem;
+  }
 }

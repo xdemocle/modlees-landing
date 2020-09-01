@@ -29,7 +29,8 @@ function App() {
 
         <section className="App-body">
           <p>
-            Modlees is a marketplace where influencers can sell digital content.
+            Modlees is a marketplace where influencers can sell digital content
+            and raise funds.
           </p>
           <p>
             Build on blockchain technology, the financial revolution to tokenize
@@ -39,41 +40,43 @@ function App() {
         </section>
 
         <section className="App-footer">
-          <a
-            className="App-link"
-            href="https://modlees.us17.list-manage.com/subscribe/post?u=fc0f52843438cf9eda32d7595&amp;id=d98f8ced7b"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Subscribe to the Newletter:
-          </a>
-
-          <br />
-
-          <form onSubmit={openNewletterSubmit}>
-            <input
-              className="css-input"
-              placeholder="your@email.com"
-              onClick={openNewletter}
-            />
-            <button
-              type="submit"
-              className="css-button"
-              onClick={openNewletter}
-            >
-              Subscribe
-            </button>
-          </form>
-
-          <div className="App-footer__down">
+          <div className="App-footer__email">
+            Contact us for more information:
+            <br />
             <a
               className="App-link"
-              href="mailto:info@modless.com"
+              href="mailto:info@modlees.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              info@modless.com
+              info@modlees.com
             </a>
+          </div>
+
+          <div className="App-footer__newsletter">
+            <a
+              className="App-link"
+              href="https://modlees.us17.list-manage.com/subscribe/post?u=fc0f52843438cf9eda32d7595&amp;id=d98f8ced7b"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Stay up to date with our newsletter
+            </a>
+
+            <form onSubmit={openNewletterSubmit}>
+              <input
+                className="css-input"
+                placeholder="your@email.com"
+                onClick={openNewletter}
+              />
+              <button
+                type="submit"
+                className="css-button"
+                onClick={openNewletter}
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </section>
       </div>
